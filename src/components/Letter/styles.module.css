@@ -1,0 +1,65 @@
+.letter {
+    width: 3.37rem;
+    height: 3.37rem;
+    border-radius: .70rem;
+    background-color: var(--lavender-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6363db;
+    flex-wrap: wrap;
+
+    
+    color: var(--medium-violet-blue);
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.letterSmall {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: .50rem;
+    font-size: 1.5rem;   
+    font-weight: 500;
+    border: 1px solid #6363db;
+}
+
+.letterCorrect {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: .50rem;
+    font-size: 1.5rem;   
+    font-weight: 500;
+    border: 1.5px solid var(--vivid-green);
+    background-color: var(--very-light-mint-green);
+    color: var(--vivid-green);
+}
+
+.letterWrong {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: .50rem;
+    font-size: 1.5rem;   
+    font-weight: 500;
+    border: 1.5px solid var(--burnt-orange);
+    background-color: var(--light-golden-yellow);
+    color: black;
+}
+
+.letterCorrectInt {
+    width: 3.37rem;
+    height: 3.37rem;
+    border-radius: .70rem;
+    border: 1.5px solid var(--vivid-green);
+    background-color: var(--very-light-mint-green);
+    color: var(--vivid-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+

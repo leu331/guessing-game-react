@@ -1,0 +1,21 @@
+.input {
+    & input {
+    width: 3rem;
+    height: 3rem;  
+    border-radius: .5rem;
+    background-color: #ebebfc;
+    color: var(--moderate-blue);
+    font-size: 2rem;
+    border: 2px solid var(--medium-violet-blue);
+    flex-wrap: wrap;
+    text-align: center;
+
+    &::placeholder {
+        text-align: center; 
+        color: var(--medium-violet-blue);   
+        font-size: 1.8rem;
+        font-weight: bold;  
+    }
+    }
+    
+}

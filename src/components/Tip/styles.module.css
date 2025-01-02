@@ -1,0 +1,27 @@
+.tip {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--lavender-blue);
+    padding: 1rem;
+    border-radius: .75rem;
+
+    & button {
+        background: transparent;
+        border: none; 
+        width: 2rem;
+        margin-left: .75rem;
+    }
+
+    & h3 {
+        color: var(--moderate-blue);
+        margin-bottom: 5px;
+        font-size: 1.25rem;
+    }
+
+    & p {
+        color: var(--moderate-blue);
+    }
+
+}

@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 600px;
+    padding: 2rem;
+    background-color: var(--white-100);
+    border-radius: .75rem;
+    padding-top: 4.5rem;
+
+}
+
+.word {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+h4 {
+  color: #32325F;
+  margin-bottom: .75rem;
+  margin-top: 3.12rem;
+}
+
+.guesses {
+   display: flex;
+   gap: .75rem;
+}
+
+.border {
+    border: 1px solid var(--gray-100);
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+

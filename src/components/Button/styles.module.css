@@ -1,0 +1,15 @@
+button {
+    width: 6.8rem;
+    height: 3rem;
+  
+    align-items: center;
+    justify-content: center;
+    background-color: var(--medium-violet-blue);
+    border-radius: .5rem;
+    border: 3px solid var(--moderate-blue);
+
+    font-size: 1rem;
+    color: var(--white-100);
+    font-weight: 550;
+
+}

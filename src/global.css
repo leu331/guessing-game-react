@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-100: #ffffff;
+    --white-50: #f5f5fa;
+    --gray-20: #c3c3c3;
+    --gray-50: #afafaf;
+    --gray-100: #9b9b9b;
+    --black: #000000;
+    --lavender-blue: #ebebfc;
+    --medium-violet-blue: #6363DB;
+    --moderate-blue: #4F4FB9;
+    --light-golden-yellow: #FFCF62;
+    --burnt-orange: #E8891C;
+    --dark-reddish-brown: #691B0A;
+    --very-light-mint-green: #E1F5EC;
+    --vivid-green: #03AB4F;
+
+    font-family: "Noto-Sans", sans-serif;
+}
+
+.container {
+    width:600px;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #f5f5fa;
+}

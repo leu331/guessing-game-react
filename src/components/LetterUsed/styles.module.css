@@ -1,0 +1,13 @@
+.letterused {
+    & h5 {
+        color: #32325F;
+        font-weight: 600;
+        font-size: .95rem;
+    }
+
+    & div {
+        display: flex;
+        gap: .75rem;
+        margin-top: .4rem;
+    }
+}
