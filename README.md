@@ -1,50 +1,51 @@
-# React + TypeScript + Vite
+# Guessing Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Jogo de Palavras** é uma aplicação onde o usuário deve adivinhar uma palavra ao tentar letras. O jogo apresenta uma palavra oculta e o jogador deve acertar as letras que compõem essa palavra, com um número limitado de tentativas. A cada tentativa, a interface é atualizada para mostrar as letras corretas e as erradas.
 
-Currently, two official plugins are available:
+Esse projeto foi desenvolvido utilizando **React**, proporcionando uma interface moderna e responsiva para os usuários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **JavaScript/TypeScript**: Linguagem de programação utilizada para lógica de negócio.
+- **React Hooks**: Para gerenciamento de estado e efeitos.
+- **CSS Modules**: Para organização de estilos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- Jogo de adivinhação de palavras com limite de tentativas.
+- Feedback visual para letras corretas e incorretas.
+- Reinício do jogo com novas palavras a cada rodada.
+- Design responsivo utilizando **Tailwind CSS** e **CSS Modules**.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Como Executar o Projeto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/LeuzimarFilho/guessing-game-react.git
+    cd guessing game
+    ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+3. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
+
+4. Acesse a aplicação no seu navegador:
+    ```
+    http://localhost:5173
+    ```
+
+## Desenvolvimento
+
+- Para adicionar novas funcionalidades ou corrigir bugs, crie uma nova branch e faça um **pull request** para revisão.
+- Certifique-se de seguir a estrutura do projeto e a utilização das **React hooks** para manter o código organizado e fácil de manter.
+
+## Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
